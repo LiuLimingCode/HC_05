@@ -1,0 +1,14 @@
+AT
+AT+PSWD="pswd"
+AT+ROLE=0
+AT+ADDR?
+AT+UART=rate,0,0
+
+
+AT
+AT+PSWD="pswd"
+AT+ROLE=1
+AT+BIND=addr
+AT+UART=rate,0,0
+
+
