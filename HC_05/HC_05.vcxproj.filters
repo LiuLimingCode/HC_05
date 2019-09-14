@@ -15,12 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="HC_05.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="HC_05Dlg.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="stdafx.h">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -36,30 +30,33 @@
     <ClInclude Include="ErrorDlg.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="SetDlg.h">
+    <ClInclude Include="HC_05.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="Order.h">
+    <ClInclude Include="HC_05Dlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SetDlg.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="HC_05.cpp">
+    <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="HC_05Dlg.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="stdafx.cpp">
+    <ClCompile Include="HC_05.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="CMSComm.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="ErrorDlg.cpp">
+    <ClCompile Include="SetDlg.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="SetDlg.cpp">
+    <ClCompile Include="ErrorDlg.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -69,13 +66,13 @@
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\HC05.rc2">
-      <Filter>资源文件</Filter>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
     <Image Include="res\HC_05.ico">
       <Filter>资源文件</Filter>
     </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\HC05.rc2">
+      <Filter>资源文件</Filter>
+    </None>
   </ItemGroup>
 </Project>

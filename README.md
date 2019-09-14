@@ -15,3 +15,14 @@
  将两片HC-05蓝牙插入电脑的串口，完成软件设置，就可以完成配对。
  
  注意：使用该软件必须注册MSCOMM32.OCX控件，否则无法打开。
+
+ - 控件安装
+
+1.将“控件”压缩包中的MSCOMM32.OCX复制到C:\Windows\SysWOW64\（64位电脑）目录下
+                                                                 或者C:\Windows\System32\   （32位电脑）目录下
+
+2.以管理员身份运行cmd
+
+3.输入指令 regsvr32 %windir%\SysWOW64\MSCOMM32.OCX（64位电脑）
+         或者 regsvr32 %windir%\System32\MSCOMM32.OCX   （32位电脑）
+
