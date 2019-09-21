@@ -26,3 +26,7 @@
 3.输入指令 regsvr32 %windir%\SysWOW64\MSCOMM32.OCX（64位电脑）
          或者 regsvr32 %windir%\System32\MSCOMM32.OCX   （32位电脑）
 
+ - 工程
+
+Visual Studio 2019
+
