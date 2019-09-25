@@ -18,7 +18,7 @@
 
  #### 控件安装
 
-- 1.将“控件”压缩包中的MSCOMM32.OCX复制到**C:\Windows\SysWOW64\（64位电脑）**目录下,或者 **C:\Windows\System32\（32位电脑）**目录下
+- 1.将“控件”压缩包中的MSCOMM32.OCX复制到`C:\Windows\SysWOW64\`（64位电脑）目录下,或者 `C:\Windows\System32\`（32位电脑）目录下
 
 - 2.以管理员身份运行cmd.exe
 
@@ -28,4 +28,3 @@
 #### 工程
 
 Visual Studio 2019
-
