@@ -1,34 +1,31 @@
-# HC_05À¶ÑÀÅä¶Ô
+# HC_05è“ç‰™é…å¯¹
 
-±êÇ©£º MFC C++
+æ ‡ç­¾ï¼š MFC C++
 
 ---
 
-ÕâÊÇÒ»¸öÄÜ¹»×Ô¶¯¸ù¾ÝHC-05À¶ÑÀÅä¶ÔÖ¸Áî¶ÔÀ¶ÑÀ½øÐÐÉèÖÃµÄÈí¼þ
+è¿™æ˜¯ä¸€ä¸ªèƒ½å¤Ÿè‡ªåŠ¨æ ¹æ®HC-05è“ç‰™é…å¯¹æŒ‡ä»¤å¯¹è“ç‰™è¿›è¡Œè®¾ç½®çš„è½¯ä»¶
 
- - Èí¼þ½ØÍ¼
+ #### è½¯ä»¶æˆªå›¾
  
-![Èí¼þ½ØÍ¼](doc/HC_05.png)
+![è½¯ä»¶æˆªå›¾](doc/HC_05.png)
 
- - Ê¹ÓÃ·½·¨
+ #### ä½¿ç”¨æ–¹æ³•
  
- ½«Á½Æ¬HC-05À¶ÑÀ²åÈëµçÄÔµÄ´®¿Ú£¬Íê³ÉÈí¼þÉèÖÃ£¬¾Í¿ÉÒÔÍê³ÉÅä¶Ô¡£
+ å°†ä¸¤ç‰‡HC-05è“ç‰™æ’å…¥ç”µè„‘çš„ä¸²å£ï¼Œå®Œæˆè½¯ä»¶è®¾ç½®ï¼Œå°±å¯ä»¥å®Œæˆé…å¯¹ã€‚
  
- ×¢Òâ£ºÊ¹ÓÃ¸ÃÈí¼þ±ØÐë×¢²áMSCOMM32.OCX¿Ø¼þ£¬·ñÔòÎÞ·¨´ò¿ª¡£
+ æ³¨æ„ï¼šä½¿ç”¨è¯¥è½¯ä»¶å¿…é¡»æ³¨å†ŒMSCOMM32.OCXæŽ§ä»¶ï¼Œå¦åˆ™æ— æ³•æ‰“å¼€ã€‚
 
- - ¿Ø¼þ°²×°
+ #### æŽ§ä»¶å®‰è£…
 
-1.½«¡°¿Ø¼þ¡±Ñ¹Ëõ°üÖÐµÄMSCOMM32.OCX¸´ÖÆµ½C:\Windows\SysWOW64\£¨64Î»µçÄÔ£©Ä¿Â¼ÏÂ
+- 1.å°†â€œæŽ§ä»¶â€åŽ‹ç¼©åŒ…ä¸­çš„MSCOMM32.OCXå¤åˆ¶åˆ°**C:\Windows\SysWOW64\ï¼ˆ64ä½ç”µè„‘ï¼‰**ç›®å½•ä¸‹,æˆ–è€… **C:\Windows\System32\ï¼ˆ32ä½ç”µè„‘ï¼‰**ç›®å½•ä¸‹
 
-                                                                 »òÕßC:\Windows\System32\   £¨32Î»µçÄÔ£©Ä¿Â¼ÏÂ
+- 2.ä»¥ç®¡ç†å‘˜èº«ä»½è¿è¡Œcmd.exe
 
-2.ÒÔ¹ÜÀíÔ±Éí·ÝÔËÐÐcmd
+- 3.è¾“å…¥æŒ‡ä»¤`regsvr32 %windir%\SysWOW64\MSCOMM32.OCX`ï¼ˆ64ä½ç”µè„‘)
+æˆ–è€… `regsvr32 %windir%\System32\MSCOMM32.OCX`ï¼ˆ32ä½ç”µè„‘ï¼‰
 
-3.ÊäÈëÖ¸Áî regsvr32 %windir%\SysWOW64\MSCOMM32.OCX£¨64Î»µçÄÔ£©
-
-         »òÕß regsvr32 %windir%\System32\MSCOMM32.OCX   £¨32Î»µçÄÔ£©
-
- - ¹¤³Ì
+#### å·¥ç¨‹
 
 Visual Studio 2019
 
